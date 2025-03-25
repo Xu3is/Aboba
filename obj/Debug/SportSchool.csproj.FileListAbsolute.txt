@@ -1,0 +1,12 @@
+H:\абоба\SportSchool\bin\Debug\SportSchool.exe.config
+H:\абоба\SportSchool\bin\Debug\SportSchool.exe
+H:\абоба\SportSchool\bin\Debug\SportSchool.pdb
+H:\абоба\SportSchool\obj\Debug\SportSchool.csproj.AssemblyReference.cache
+H:\абоба\SportSchool\obj\Debug\SportSchool.Form1.resources
+H:\абоба\SportSchool\obj\Debug\SportSchool.Properties.Resources.resources
+H:\абоба\SportSchool\obj\Debug\SportSchool.csproj.GenerateResource.cache
+H:\абоба\SportSchool\obj\Debug\SportSchool.csproj.CoreCompileInputs.cache
+H:\абоба\SportSchool\obj\Debug\SportSchool.exe
+H:\абоба\SportSchool\obj\Debug\SportSchool.pdb
+H:\абоба\SportSchool\obj\Debug\SportSchool.admin.resources
+H:\абоба\SportSchool\obj\Debug\SportSchool.user.resources
