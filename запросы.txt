@@ -82,3 +82,4 @@ INSERT INTO платежи (ученик, курс, посещенно, опла
 
 Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database1.mdf;Integrated Security=True
 
+Database1ConnectionString
