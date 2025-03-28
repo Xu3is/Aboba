@@ -22,3 +22,5 @@ C:\Users\3291922-25\Source\Repos\aboba\obj\Debug\SportSchool.csproj.GenerateReso
 C:\Users\3291922-25\Source\Repos\aboba\obj\Debug\SportSchool.csproj.CoreCompileInputs.cache
 C:\Users\3291922-25\Source\Repos\aboba\obj\Debug\SportSchool.exe
 C:\Users\3291922-25\Source\Repos\aboba\obj\Debug\SportSchool.pdb
+C:\Users\3291922-25\source\repos\aboba\bin\Debug\Database1.mdf
+C:\Users\3291922-25\source\repos\aboba\bin\Debug\Database1_log.ldf
