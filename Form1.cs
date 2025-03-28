@@ -10,7 +10,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
-namespace SportSchool {
+namespace SportSchool
+{
     public partial class Form1 : Form
     {
         public Form1()
@@ -21,8 +22,6 @@ namespace SportSchool {
 
         private void button1_MouseClick(object sender, MouseEventArgs e)
         {
-            string userlogin = "user";
-            string userpassword = "user";
             string adminlogin = "admin";
             string adminpassword = "admin";
 
@@ -46,21 +45,12 @@ namespace SportSchool {
             input1 = input1.ToLower();
             input2 = input2.ToLower();
 
-            if (input1 == userlogin && input2 == userpassword)
-            {
-                this.Hide();
-                User userForm = new User();
-                userForm.ShowDialog();
-                this.Show();
-                textBox1.Clear();
-                textBox2.Clear();
-            }
-            else if (input1 == adminlogin && input2 == adminpassword)
+            if (input1 == adminlogin && input2 == adminpassword)
             {
                 this.Hide();
                 admin adminForm = new admin();
                 adminForm.ShowDialog();
-                this.Show();
+                this.Close(); // Закрываем Form1 после входа в admin
                 textBox1.Clear();
                 textBox2.Clear();
             }
@@ -85,7 +75,7 @@ namespace SportSchool {
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Application.Exit(); // Завершаем приложение при любом закрытии Form1
+            // Не завершаем приложение полностью, просто закрываем форму
         }
     }
 }

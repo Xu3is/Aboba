@@ -10,3 +10,15 @@ H:\абоба\SportSchool\obj\Debug\SportSchool.exe
 H:\абоба\SportSchool\obj\Debug\SportSchool.pdb
 H:\абоба\SportSchool\obj\Debug\SportSchool.admin.resources
 H:\абоба\SportSchool\obj\Debug\SportSchool.user.resources
+C:\Users\3291922-25\Source\Repos\aboba\bin\Debug\SportSchool.exe.config
+C:\Users\3291922-25\Source\Repos\aboba\bin\Debug\SportSchool.exe
+C:\Users\3291922-25\Source\Repos\aboba\bin\Debug\SportSchool.pdb
+C:\Users\3291922-25\Source\Repos\aboba\obj\Debug\SportSchool.csproj.AssemblyReference.cache
+C:\Users\3291922-25\Source\Repos\aboba\obj\Debug\SportSchool.admin.resources
+C:\Users\3291922-25\Source\Repos\aboba\obj\Debug\SportSchool.Form1.resources
+C:\Users\3291922-25\Source\Repos\aboba\obj\Debug\SportSchool.Properties.Resources.resources
+C:\Users\3291922-25\Source\Repos\aboba\obj\Debug\SportSchool.User.resources
+C:\Users\3291922-25\Source\Repos\aboba\obj\Debug\SportSchool.csproj.GenerateResource.cache
+C:\Users\3291922-25\Source\Repos\aboba\obj\Debug\SportSchool.csproj.CoreCompileInputs.cache
+C:\Users\3291922-25\Source\Repos\aboba\obj\Debug\SportSchool.exe
+C:\Users\3291922-25\Source\Repos\aboba\obj\Debug\SportSchool.pdb

@@ -1,0 +1,80 @@
+CREATE TABLE курсы (
+                         код INT IDENTITY(1,1) PRIMARY KEY,
+                         название NVARCHAR(255) NOT NULL,
+                         описание TEXT NOT NULL,
+                         возраст NVARCHAR(20) NOT NULL,
+                         цена DECIMAL(10,2) NOT NULL,
+                         длительность INT NOT NULL
+);
+INSERT INTO курсы (название, описание, возраст, цена, длительность) VALUES
+                        ('Баскетбол для начинающих', 'Базовые навыки и техника.', '6-10 лет', 500.00, 10),
+                        ('Йога для детей', 'Гибкость и координация.', '8-12 лет', 450.00, 12),
+                        ('Футбол для подростков', 'Улучшение техники и подготовки.', '13-17 лет', 600.00, 15)
+
+CREATE TABLE тренеры (
+                          код INT IDENTITY(1,1) PRIMARY KEY,
+                          ФИО NVARCHAR(255) NOT NULL,
+                          почта NVARCHAR(255) NOT NULL UNIQUE,
+                          телефон NVARCHAR(20) NOT NULL,
+                          специалиация INT NOT NULL,
+                          адрес NVARCHAR(255) NOT NULL,
+                          FOREIGN KEY (специалиация) REFERENCES курсы(код) ON DELETE CASCADE
+);
+
+INSERT INTO тренеры (ФИО, почта, телефон, специалиация, адрес) VALUES
+                        ('Войтенко Игорь Александрович', 'igorvoitenko@yandex.com', '+7-900-123-45-67', 2, 'Москва, ул. Большая Лубянка д. 2 '),
+                        ('Боброва Мира Максимовна', 'olga.smirnova@yandex.com', '+7-901-234-56-78', 1, 'Москва, Красноплесенская наб. д. 2'),
+                        ('Буров Даниил Александрович', 'alex.ivanov@yandex.com', '+7-902-345-67-89', 3, 'Москва, пр. Мира, д. 5')
+
+
+CREATE TABLE занятия (
+                         код INT IDENTITY(1,1) PRIMARY KEY,
+                         курс INT NOT NULL,
+                         тренер INT NOT NULL,
+                         дата DATE NOT NULL,
+                         начало TIME NOT NULL,
+                         конец TIME NOT NULL,
+                         FOREIGN KEY (курс) REFERENCES курсы(код) ON DELETE CASCADE,
+                         FOREIGN KEY (тренер) REFERENCES тренеры(код) ON DELETE NO ACTION
+);
+
+INSERT INTO занятия (курс, тренер, дата, начало, конец) VALUES
+                        (1, 2, '2025-04-01', '10:00:00', '11:30:00'),
+                        (2, 1, '2025-04-02', '14:00:00', '15:30:00'),
+                        (3, 3, '2025-04-03', '16:00:00', '17:30:00')
+
+
+CREATE TABLE ученики (
+                          код INT IDENTITY(1,1) PRIMARY KEY,
+                          фИО NVARCHAR(255) NOT NULL,
+                          телефон NVARCHAR(20) NOT NULL,
+                          возраст INT NOT NULL,
+                          регистрация DATE NOT NULL,
+                          курс INT NOT NULL,
+                          FOREIGN KEY (курс) REFERENCES курсы(код) ON DELETE CASCADE
+);
+
+
+INSERT INTO ученики (ФИО, телефон, возраст, регистрация, курс) VALUES
+                        ('Мельникова Кира Ивановна', '+7-900-123-45-67', 9, '2025-03-01', 1),
+                        ('Малышев Алексей Миронович', '+7-901-234-56-78', 9, '2025-03-02', 2),
+                        ('Климов Артём Тимофеевич', '+7-902-345-67-89', 16, '2025-03-03', 3)
+
+
+
+
+
+CREATE TABLE платежи (
+                          код INT IDENTITY(1,1) PRIMARY KEY,
+                          ученик INT NOT NULL,
+                          курс INT NOT NULL,
+                          посещенно INT NOT NULL,
+                          оплачено INT NOT NULL,
+                          FOREIGN KEY (ученик) REFERENCES ученики(код) ON DELETE CASCADE,
+                          FOREIGN KEY (курс) REFERENCES курсы(код) ON DELETE NO ACTION
+);
+
+INSERT INTO платежи (ученик, курс, посещенно, оплачено) VALUES
+                        (1, 1, 1, 0),
+                        (2, 2, 1, 0),
+                        (3, 3, 1, 0)
