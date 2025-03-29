@@ -35,9 +35,9 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(1223, 733);
+            this.ClientSize = new System.Drawing.Size(1713, 733);
             this.Name = "admin";
-            this.Text = "Панель управления";
+            this.Text = "Панель администрирования";
             this.ResumeLayout(false);
 
         }

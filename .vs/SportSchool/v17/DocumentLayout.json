@@ -1,34 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\3291922-25\\source\\repos\\aboba\\",
+  "WorkspaceRootPath": "C:\\Users\\Matvey\\source\\repos\\Aboba\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E7783E11-EFC9-4F33-8596-569F3FC48F12}|SportSchool.csproj|C:\\Users\\3291922-25\\source\\repos\\aboba\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7783E11-EFC9-4F33-8596-569F3FC48F12}|SportSchool.csproj|solutionrelative:admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7783E11-EFC9-4F33-8596-569F3FC48F12}|SportSchool.csproj|c:\\users\\matvey\\source\\repos\\aboba\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E7783E11-EFC9-4F33-8596-569F3FC48F12}|SportSchool.csproj|solutionrelative:admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7783E11-EFC9-4F33-8596-569F3FC48F12}|SportSchool.csproj|C:\\Users\\3291922-25\\source\\repos\\aboba\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7783E11-EFC9-4F33-8596-569F3FC48F12}|SportSchool.csproj|solutionrelative:user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7783E11-EFC9-4F33-8596-569F3FC48F12}|SportSchool.csproj|c:\\users\\matvey\\source\\repos\\aboba\\admin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7783E11-EFC9-4F33-8596-569F3FC48F12}|SportSchool.csproj|solutionrelative:admin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7783E11-EFC9-4F33-8596-569F3FC48F12}|SportSchool.csproj|C:\\Users\\3291922-25\\source\\repos\\aboba\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7783E11-EFC9-4F33-8596-569F3FC48F12}|SportSchool.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7783E11-EFC9-4F33-8596-569F3FC48F12}|SportSchool.csproj|C:\\Users\\3291922-25\\source\\repos\\aboba\\user.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7783E11-EFC9-4F33-8596-569F3FC48F12}|SportSchool.csproj|solutionrelative:user.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7783E11-EFC9-4F33-8596-569F3FC48F12}|SportSchool.csproj|C:\\Users\\3291922-25\\source\\repos\\aboba\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7783E11-EFC9-4F33-8596-569F3FC48F12}|SportSchool.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7783E11-EFC9-4F33-8596-569F3FC48F12}|SportSchool.csproj|C:\\Users\\3291922-25\\source\\repos\\aboba\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E7783E11-EFC9-4F33-8596-569F3FC48F12}|SportSchool.csproj|c:\\users\\matvey\\source\\repos\\aboba\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E7783E11-EFC9-4F33-8596-569F3FC48F12}|SportSchool.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7783E11-EFC9-4F33-8596-569F3FC48F12}|SportSchool.csproj|C:\\Users\\3291922-25\\source\\repos\\aboba\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E7783E11-EFC9-4F33-8596-569F3FC48F12}|SportSchool.csproj|C:\\Users\\Matvey\\source\\repos\\Aboba\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E7783E11-EFC9-4F33-8596-569F3FC48F12}|SportSchool.csproj|solutionrelative:user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7783E11-EFC9-4F33-8596-569F3FC48F12}|SportSchool.csproj|c:\\users\\matvey\\source\\repos\\aboba\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7783E11-EFC9-4F33-8596-569F3FC48F12}|SportSchool.csproj|solutionrelative:user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,96 +30,68 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "user.cs",
-              "DocumentMoniker": "C:\\Users\\3291922-25\\source\\repos\\aboba\\user.cs",
-              "RelativeDocumentMoniker": "user.cs",
-              "ToolTip": "C:\\Users\\3291922-25\\source\\repos\\aboba\\user.cs",
-              "RelativeToolTip": "user.cs",
-              "ViewState": "AQIAAFoAAAAAAAAAAAAjwEUAAAAzAAAA",
+              "DocumentIndex": 0,
+              "Title": "admin.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\Matvey\\source\\repos\\Aboba\\admin.cs",
+              "RelativeDocumentMoniker": "admin.cs",
+              "ToolTip": "C:\\Users\\Matvey\\source\\repos\\Aboba\\admin.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "admin.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T08:18:25.735Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-29T18:56:46.864Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "user.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\3291922-25\\source\\repos\\aboba\\user.Designer.cs",
-              "RelativeDocumentMoniker": "user.Designer.cs",
-              "ToolTip": "C:\\Users\\3291922-25\\source\\repos\\aboba\\user.Designer.cs",
-              "RelativeToolTip": "user.Designer.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAswCsAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "admin.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Matvey\\source\\repos\\Aboba\\admin.Designer.cs",
+              "RelativeDocumentMoniker": "admin.Designer.cs",
+              "ToolTip": "C:\\Users\\Matvey\\source\\repos\\Aboba\\admin.Designer.cs",
+              "RelativeToolTip": "admin.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T07:18:41.233Z",
+              "WhenOpened": "2025-03-29T18:56:45.212Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\3291922-25\\source\\repos\\aboba\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\3291922-25\\source\\repos\\aboba\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T07:11:17.228Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "admin.cs",
-              "DocumentMoniker": "C:\\Users\\3291922-25\\source\\repos\\aboba\\admin.cs",
-              "RelativeDocumentMoniker": "admin.cs",
-              "ToolTip": "C:\\Users\\3291922-25\\source\\repos\\aboba\\admin.cs",
-              "RelativeToolTip": "admin.cs",
-              "ViewState": "AQIAANUBAAAAAAAAAAAmwAECAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T10:08:10.125Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\3291922-25\\source\\repos\\aboba\\Form1.cs",
+              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\Matvey\\source\\repos\\Aboba\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\3291922-25\\source\\repos\\aboba\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAD4AAAAAAAAA",
+              "ToolTip": "C:\\Users\\Matvey\\source\\repos\\Aboba\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T07:02:31.101Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "user.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\3291922-25\\source\\repos\\aboba\\user.cs",
-              "RelativeDocumentMoniker": "user.cs",
-              "ToolTip": "C:\\Users\\3291922-25\\source\\repos\\aboba\\user.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "user.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T07:09:45.92Z",
+              "WhenOpened": "2025-03-29T18:56:14.526Z",
               "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\3291922-25\\source\\repos\\aboba\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\3291922-25\\source\\repos\\aboba\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentIndex": 4,
+              "Title": "user.cs",
+              "DocumentMoniker": "C:\\Users\\Matvey\\source\\repos\\Aboba\\user.cs",
+              "RelativeDocumentMoniker": "user.cs",
+              "ToolTip": "C:\\Users\\Matvey\\source\\repos\\Aboba\\user.cs",
+              "RelativeToolTip": "user.cs",
+              "ViewState": "AgIAAPkAAAAAAAAAAADwvxcBAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T06:34:31.158Z",
+              "WhenOpened": "2025-03-29T11:41:34.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "user.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\Matvey\\source\\repos\\Aboba\\user.cs",
+              "RelativeDocumentMoniker": "user.cs",
+              "ToolTip": "C:\\Users\\Matvey\\source\\repos\\Aboba\\user.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "user.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T07:09:45.92Z",
               "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             }
           ]

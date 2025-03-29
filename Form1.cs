@@ -18,9 +18,61 @@ namespace SportSchool
         {
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;
+
+            // Подписка на событие PreviewKeyDown для textBox1
+            textBox1.PreviewKeyDown += textBox1_PreviewKeyDown;
+
+            // Подписка на событие PreviewKeyDown для textBox2
+            textBox2.PreviewKeyDown += textBox2_PreviewKeyDown;
+            textBox2.KeyDown += textBox2_KeyDown;
         }
 
-        private void button1_MouseClick(object sender, MouseEventArgs e)
+        // Обработка события для textBox1, чтобы разрешить переход только на textBox2 по Tab
+        private void textBox1_PreviewKeyDown(object sender, PreviewKeyDownEventArgs e)
+        {
+            // Разрешаем переход только по Tab
+            if (e.KeyCode == Keys.Tab)
+            {
+                // Позволяем переходить на textBox2 по Tab
+                e.IsInputKey = false;
+            }
+            else
+            {
+                // Блокируем любые другие переходы
+                e.IsInputKey = true;
+            }
+        }
+
+        // Обработка для textBox2, чтобы запрещать переходы (включая Tab)
+        private void textBox2_PreviewKeyDown(object sender, PreviewKeyDownEventArgs e)
+        {
+            // Блокируем любые попытки перемещения из textBox2
+            e.IsInputKey = true;
+        }
+
+        // Переключение на button1 при нажатии Enter в textBox2
+        private void textBox2_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter) // Проверка на Enter
+            {
+                button1.PerformClick(); // Имитируем клик по кнопке
+                e.Handled = true; // Останавливаем дальнейшую обработку нажатия Enter
+            }
+        }
+
+        private bool IsValidInput(string input)
+        {
+            foreach (char c in input)
+            {
+                if (!char.IsLetter(c))
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
         {
             string adminlogin = "admin";
             string adminpassword = "admin";
@@ -60,22 +112,7 @@ namespace SportSchool
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
-        private bool IsValidInput(string input)
-        {
-            foreach (char c in input)
-            {
-                if (!char.IsLetter(c))
-                {
-                    return false;
-                }
-            }
-            return true;
-        }
-
-        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            // Не завершаем приложение полностью, просто закрываем форму
-        }
     }
 }
+
+
