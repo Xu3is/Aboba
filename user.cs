@@ -431,7 +431,7 @@ namespace SportSchool
             this.Controls.Add(ageTextBox);
 
             Button submitButton = new Button();
-            submitButton.Text = "Зарегистрироваться";
+            submitButton.Text = "Записаться";
             submitButton.Font = new Font("Arial", 12);
             submitButton.Location = new Point(20, 240);
             submitButton.Size = new Size(350, 60);
